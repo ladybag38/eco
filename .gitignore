@@ -1,0 +1,6 @@
+app/local.py
+
+.venv/
+
+static/
+media/
