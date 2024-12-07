@@ -3,5 +3,7 @@ app/local.py
 .venv/
 .idea/
 
+db.sqlite3
+
 static/
 media/
