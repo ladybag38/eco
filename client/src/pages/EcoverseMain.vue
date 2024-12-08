@@ -4,18 +4,22 @@
 </script>
 
 <template>
+  <div style="margin-top: 100px; justify-content: center; display: flex">
+    <span class="text-h3 for_text " style="font-style: italic; " >Ecoverse</span>
+    <span class="text-h3 for_text " > - сортируй просто!</span>
+  </div>
 <div class="eco-container">
       <div  >
-          <img  src="/images/main.png"  style="width: 350px; height:  350px"/>
+          <img  src="/images/main.png"  style="width: 300px; height:  300px"/>
       </div>
   <div>
-    <span class="text-h3 " >Ecoverse - сортируй просто!</span>
+
     <br>
      <br>
-    <span class="text-h5">
+    <span class="text-h5 for_text">
       Инновационная цифровая экосистема, решает проблемы: </span><br>
 
-    <ul class="text-h6">
+    <ul class="text-h5  for_text">
   <li>низкой степени переработки бытовых отходов</li>
   <li>неразвитость культуры раздельного сбора и сортировки мусора</li>
   <li>привлечение и удержания клиентов в малом и среднем бизнесе</li>
@@ -23,28 +27,15 @@
 
   </div>
   <div>
-    <q-card class="my-card">
-      <q-card-section>
-        <div class="text-h6">справка</div>
-        <div class="text-subtitle2">
 
 
-        </div>
-      </q-card-section>
-
-      <q-separator />
-
-      <q-card-actions vertical>
-        <q-btn flat>Action 1</q-btn>
-        <q-btn flat>Action 2</q-btn>
-      </q-card-actions>
-    </q-card>
-    <q-card class="q-mr-lg">
-<span class="text-body1">Продукт проекта представляет собой комплексный IT продукт, направленный на улучшение экологии, повышение качества жизни граждан благодаря системе мотивации. Пользователи Ecoverse будут получать цифровые бонусы за раздельный сбор мусора и выполнение определенных задач в приложении, обмениваемые на продукты компаний-партнеров: скидки, бонусы, образовательные программы и товарные наборы. Также планируется использование блокчейна и работа с криптовалютами. Участниками-партнерами экосистемы станут малый и средний бизнес, пользователи приложения, а также компании, занимающиеся переработкой мусорных отходов.</span>
-</q-card>
   </div>
 
 </div>
+
+   <div style="margin-top: 10px; justify-content: center; display: flex">
+    <span class="text-h3 for_text " > Что нужно делать? </span>
+  </div>
 
 </template>
 
@@ -52,13 +43,22 @@
 
 .eco-container {
   display: grid;
-  grid-template-columns: 400px repeat(1, auto) 500px;
-  background: white;
-  margin-top: 150px;
-  margin-left: 50px;
+  grid-template-columns:  repeat(2, auto) 500px;
+  background: $green-3;
+  margin-top: 10px;
+  justify-content: center;
+  display: flex;
+ padding: 50px;
+
 }
 
 ul {
     list-style-type: "\2705";
+}
+.for_text{
+  font-family: "Comic Sans MS";
+}
+.for_text2{
+  font-family: "Sans Serif Collection";
 }
 </style>
