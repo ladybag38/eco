@@ -72,7 +72,7 @@
 .eco-container {
   display: grid;
   grid-template-columns:  repeat(2, auto) 500px;
-  background: $green-5;
+   background: linear-gradient(90deg, $green-6, $green-7, $green-8, $green-9);
   margin-top: 10px;
   justify-content: center;
   display: flex;
