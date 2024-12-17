@@ -1,12 +1,11 @@
 <template>
-  <router-view />
-  <q-layout view="hHh lpR fFf">
+  <q-layout view="hhh lpR fFf">
     <q-header elevated class="bg-white text-black">
       <q-toolbar class="q-pa-none-lg">
         <q-toolbar-title v-if="!$q.screen.xs">
           <q-btn round color="white" flat to="/">
             <q-avatar size="lg">
-             <img src="/images/eco.png" />
+              <img src="/images/eco.png"/>
             </q-avatar>
           </q-btn>
           <q-chip class="bg-white" size="lg">
@@ -20,16 +19,16 @@
         </q-toolbar-title>
 
         <q-tabs inline-label dense shrink stretch>
-          <q-route-tab label="Контакты" />
+          <q-route-tab label="Контакты"/>
 
         </q-tabs>
       </q-toolbar>
     </q-header>
     <q-page-container class="container">
-      <q-page >
+      <q-page>
+        <router-view/>
 
       </q-page>
-
     </q-page-container>
   </q-layout>
 </template>
@@ -37,3 +36,14 @@
 <script setup lang="ts">
 //
 </script>
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+</style>
